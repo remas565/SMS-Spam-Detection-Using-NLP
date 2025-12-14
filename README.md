@@ -3,17 +3,21 @@
 A comprehensive deep learning project for detecting spam messages using transfer learning with DistilBERT. This project includes baseline evaluation, fine-tuning, optimization experiments, and multiple improvement techniques.
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Dataset](#dataset)
-- [Model Architecture](#model-architecture)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Experiments & Results](#experiments--results)
-- [Usage](#usage)
-- [Performance Metrics](#performance-metrics)
-- [Contributing](#contributing)
-- [License](#license)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Dataset](#-dataset)
+- [Model Architecture](#️-model-architecture)
+- [Installation](#-installation)
+- [Project Structure](#-project-structure)
+- [Experiments & Results](#-experiments--results)
+- [Usage](#-usage)
+- [Performance Metrics](#-performance-metrics)
+- [Key Insights](#-key-insights)
+- [Future Improvements](#️-future-improvements)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+- [Contact](#-contact)
 
 ## 🎯 Overview
 
