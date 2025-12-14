@@ -6,7 +6,6 @@ A comprehensive deep learning project for detecting spam messages using transfer
 - [Overview](#-overview)
 - [Features](#-features)
 - [Dataset](#-dataset)
-- [Model Architecture](#️-model-architecture)
 - [Installation](#-installation)
 - [Project Structure](#-project-structure)
 - [Experiments & Results](#-experiments--results)
@@ -84,21 +83,7 @@ nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger_eng')
 ```
 
-## 📁 Project Structure
 
-```
-spam-detection/
-├── DL.ipynb                    # Main notebook with all experiments
-├── spam-detector-model/        # Saved fine-tuned model
-│   ├── config.json
-│   ├── model.safetensors
-│   └── tokenizer files
-├── results/                    # Training outputs
-├── aug_results/               # Augmentation experiment results
-├── dropout_results/           # Dropout experiment results
-├── lr_results/                # Learning rate tuning results
-└── opt_results/               # Optimizer comparison results
-```
 
 ## 🔬 Experiments & Results
 
@@ -224,15 +209,6 @@ Loss:      0.032
 4. **Dropout Prevents Overfitting**: Best overall performance with 0.3 dropout rate
 5. **Model Generalizes Well**: Strong performance on different datasets (98.78% accuracy)
 
-## 🛠️ Future Improvements
-
-- [ ] Implement attention visualization
-- [ ] Test with larger models (BERT-base, RoBERTa)
-- [ ] Add real-time inference API
-- [ ] Expand to multilingual spam detection
-- [ ] Implement active learning for continuous improvement
-- [ ] Add explainability features (LIME/SHAP)
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -242,10 +218,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
@@ -257,6 +229,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For questions or feedback, please open an issue on GitHub.
 
----
-
-**Note**: This project was developed as part of a deep learning research initiative focused on practical NLP applications.
