@@ -2,7 +2,7 @@
 
 A comprehensive deep learning project for detecting spam messages using transfer learning with DistilBERT. This project includes baseline evaluation, fine-tuning, optimization experiments, and multiple improvement techniques.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
 - [Dataset](#-dataset)
@@ -15,11 +15,11 @@ A comprehensive deep learning project for detecting spam messages using transfer
 - [Acknowledgments](#-acknowledgments)
 - [Contact](#-contact)
 
-## 🎯 Overview
+## Overview
 
 This project implements a state-of-the-art spam detection system using DistilBERT, a distilled version of BERT that maintains 97% of BERT's performance while being 60% faster. The system achieves over 98% accuracy on spam classification tasks through various optimization techniques and transfer learning approaches.
 
-## ✨ Features
+## Features
 
 - **Baseline Model Evaluation**: Pre-trained DistilBERT assessment before fine-tuning
 - **Transfer Learning**: Fine-tuning on SMS spam dataset
@@ -32,7 +32,7 @@ This project implements a state-of-the-art spam detection system using DistilBER
 - **Comprehensive Metrics**: Accuracy, Precision, Recall, F1-Score
 - **Model Persistence**: Saved models for deployment
 
-## 📊 Dataset
+## Dataset
 
 The project uses the [SMS Spam Collection Dataset](https://raw.githubusercontent.com/justmarkham/pycon-2016-tutorial/master/data/sms.tsv):
 
@@ -43,7 +43,7 @@ The project uses the [SMS Spam Collection Dataset](https://raw.githubusercontent
 
 Additional evaluation on [UCI SMS Spam Collection](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) for transfer learning validation.
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ### Base Model
 - **Architecture**: DistilBERT-base-uncased
@@ -60,7 +60,7 @@ Additional evaluation on [UCI SMS Spam Collection](https://archive.ics.uci.edu/m
 - **Batch Size**: 16
 - **Epochs**: 3-5 (depending on experiment)
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 ```bash
@@ -82,7 +82,7 @@ nltk.download('averaged_perceptron_tagger_eng')
 
 
 
-## 🔬 Experiments & Results
+## Experiments & Results
 
 ### 1. Baseline Evaluation (Before Fine-tuning)
 
@@ -180,8 +180,8 @@ Evaluated on UCI SMS Spam Collection:
 
 **Finding**: Model generalizes well to different spam datasets, confirming robust transfer learning.
 
-## 💻 Usage
-## 📈 Performance Metrics
+## Usage
+## Performance Metrics
 
 ### Overall Best Model (Dropout + 5 Epochs)
 ```
@@ -198,7 +198,7 @@ Loss:      0.032
 - **False Positives**: Minimal (< 1%)
 - **False Negatives**: Very low (< 4%)
 
-## 🔍 Key Insights
+## Key Insights
 
 1. **Transfer Learning is Effective**: +17.46% accuracy improvement from baseline
 2. **Optimizer Choice Matters**: RMSProp slightly outperforms AdamW at higher learning rates
@@ -206,7 +206,7 @@ Loss:      0.032
 4. **Dropout Prevents Overfitting**: Best overall performance with 0.3 dropout rate
 5. **Model Generalizes Well**: Strong performance on different datasets (98.78% accuracy)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -216,13 +216,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Dataset**: [SMS Spam Collection](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
 - **Base Model**: HuggingFace Transformers - DistilBERT
 - **Framework**: PyTorch, Transformers, scikit-learn
-
-## 📧 Contact
-
-For questions or feedback, please open an issue on GitHub.
 
