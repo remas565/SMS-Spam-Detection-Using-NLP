@@ -177,13 +177,6 @@ Based on all experimental stages, the optimal setup is:
 * **Early Stopping**: Enabled
 * **Learning Rate Strategy**: Reduce LR on Plateau
 
-### Final Performance
-
-* **Accuracy**: 83.11%
-* **Precision**: 78.91%
-* **Recall**: 90.18%
-* **F1-score**: 84.17%
-* **Loss**: 0.60
 
 ---
 
